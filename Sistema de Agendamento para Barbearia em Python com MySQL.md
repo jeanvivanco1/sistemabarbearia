@@ -21,16 +21,16 @@ O sistema oferece as seguintes funcionalidades através de um menu interativo:
 
 ### Tecnologias Utilizadas
 
-*   **Linguagem:** Python 3
-*   **Banco de Dados:** MySQL
-*   **Bibliotecas Python:**
+*   * Python 
+*   * MySQL
+*   
     *   `mysql.connector`: Para realizar a conexão e interação com o banco de dados MySQL.
     *   `datetime`: Para manipulação e validação de datas e horas.
     *   `tabulate`: Para formatar e exibir dados tabulares (listas de clientes, barbeiros, serviços, agendamentos) de forma organizada no console.
 
 ### Estrutura do Código
 
-O código está estruturado em funções modulares para cada funcionalidade principal:
+O código está estruturado em funções para cada funcionalidade principal:
 
 *   `cadastrar_cliente()`: Cuida do registro de novos clientes.
 *   `mostrar_barbeiros()`: Busca e exibe os barbeiros.
@@ -60,29 +60,18 @@ O sistema assume a existência de um banco de dados chamado `barbearia` com as s
 
 ### Como Executar o Projeto
 
-1.  **Pré-requisitos:**
-    *   Python 3 instalado.
-    *   Servidor MySQL instalado e em execução.
-    *   Banco de dados `barbearia` criado no MySQL com as tabelas mencionadas acima.
-2.  **Instalar Dependências:**
+1.  **Instalar Dependências:**
     ```bash
     pip install mysql-connector-python tabulate
     ```
-3.  **Configurar Conexão:**
+2.  **Configurar Conexão:**
     *   Abra o arquivo `PROJETO_PY.py`.
     *   Modifique os detalhes da conexão MySQL (host, user, password, database) na seção `mysql.connector.connect(...)` para corresponder à sua configuração local.
-4.  **Executar:**
+3.  **Executar:**
     ```bash
     python PROJETO_PY.py
     ```
-5.  Siga as instruções no menu interativo.
+4.  Siga as instruções no menu interativo.
 
-### Possíveis Melhorias
 
-*   Utilizar variáveis de ambiente ou arquivo de configuração para as credenciais do banco de dados.
-*   Implementar tratamento de exceções mais robusto.
-*   Adicionar funcionalidades como edição de clientes ou agendamentos.
-*   Criar uma interface gráfica (GUI) ou web.
-*   Melhorar a validação de entrada do usuário.
-*   Adicionar testes unitários.
 
