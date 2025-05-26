@@ -58,20 +58,7 @@ O sistema assume a existência de um banco de dados chamado `barbearia` com as s
 
 *Nota: As chaves estrangeiras (`fk_cliente`, `fk_barbeiro`, `fk_servico`) na tabela `tbl_agendamentos` referenciam as chaves primárias das tabelas correspondentes.*
 
-### Como Executar o Projeto
 
-1.  **Instalar Dependências:**
-    ```bash
-    pip install mysql-connector-python tabulate
-    ```
-2.  **Configurar Conexão:**
-    *   Abra o arquivo `PROJETO_PY.py`.
-    *   Modifique os detalhes da conexão MySQL (host, user, password, database) na seção `mysql.connector.connect(...)` para corresponder à sua configuração local.
-3.  **Executar:**
-    ```bash
-    python PROJETO_PY.py
-    ```
-4.  Siga as instruções no menu interativo.
 
 
 
