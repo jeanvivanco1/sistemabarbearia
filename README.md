@@ -51,4 +51,4 @@ Automatizar o processo de agendamento de uma barbearia, permitindo:
    ```bash
    pip install mysql-connector-python tabulate
 
-   Este projeto serve como base para um sistema simples de agendamento, mas requer ajustes para uso em produção.
+ Este projeto serve como base para um sistema simples de agendamento, mas requer ajustes para uso em produção.
